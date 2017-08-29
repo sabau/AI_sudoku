@@ -76,6 +76,11 @@ def reduce_puzzle(values):
     return values
 
 
+def naked_twins(values):
+
+    return values
+
+
 def search(values):
     "Using depth-first search and propagation, create a search tree and solve the sudoku."
     # First, reduce the puzzle using the previous function
@@ -110,4 +115,4 @@ def search(values):
 # Harder Sudoku
 grid2 = grid_values('4.....8.5.3..........7......2.....6.....8.4......1.......6.3.7.5..2.....1.4......')
 grid2 = (search(grid2))
-print grid2
+print(grid2)
