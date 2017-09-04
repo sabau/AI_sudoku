@@ -1,4 +1,4 @@
-from utils import *
+from sudoku.utils import *
 
 
 def grid_values(grid):
